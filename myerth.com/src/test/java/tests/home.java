@@ -22,7 +22,7 @@ public class home {
   @Test()
   public void f() {
 	  String s1=page.verifytext();
-	  assertEquals(s1,"20% of our earning goes towards saving the environment");
+	  assertEquals(s1,"Book Store Application");
 	  Boolean p=page.verifybtn1();
 	  assertTrue(p);
 	  Boolean q=page.verifybtn2();
@@ -41,14 +41,14 @@ public class home {
   @BeforeTest
   public void beforeTest() {
 	  String br="chrome";
-	  String url="https://myerth.com/";
+	  String url="https://demoqa.com";
 	   driver=base.open(br,url);
 	   page=new homepage(driver);
   }
 
   @AfterTest
   public void afterTest() {
-	  base.kill();
+	//  base.kill();
   }
 
 }

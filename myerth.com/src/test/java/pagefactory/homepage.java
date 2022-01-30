@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class homepage {
 
 	 WebDriver driver;
-	@FindBy(xpath="/html/body/div[3]/div[1]/div[1]/div/div/div/div/div[2]/div/div/div/div/div/h1") WebElement banner;
-	@FindBy(xpath="/html/body/div[3]/div[1]/div[1]/div/div/div/div/div[4]/div[3]/div/div/div[2]/a") WebElement btn1;
-	@FindBy(xpath="/html/body/div[3]/div[1]/div[1]/div/div/div/div/div[5]/div[1]/div/div/div[2]/a") WebElement btn2;
+	@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div/div[6]/div/div[3]/h5") WebElement banner;
+	@FindBy(xpath="//*[@id=\"app\"]/header/a/img") WebElement title;
+	@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div/div[6]/div") WebElement div1;
 	
 	public homepage(WebDriver driver)
 	{
@@ -26,12 +26,12 @@ public class homepage {
 	
 	public Boolean verifybtn1()
 	{
-		Boolean p=btn1.isEnabled();
+		Boolean p=title.isDisplayed();
 		return p;
 	}
 	public Boolean verifybtn2()
 	{
-		Boolean p=btn2.isEnabled();
+		Boolean p=div1.isDisplayed();
 		return p;
 	}
 	
