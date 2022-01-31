@@ -12,7 +12,7 @@ public class bookspage {
 		@FindBy(id="currentAddress") WebElement currentAddress;
 		@FindBy(id="permanentAddress") WebElement permanentAddress;
 		@FindBy(id="submit") WebElement submit;
-		
+		@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div/div[6]/div") WebElement navi;
 		@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div[1]/div/div/div[1]/span/div/div[1]") WebElement elements;
 		@FindBy(xpath="//*[@id=\"item-0\"]/span") WebElement textbox;
 		public bookspage(WebDriver driver)
@@ -31,8 +31,17 @@ public class bookspage {
 		}
 
 		public void clickme() {
+			//navi.click();
 			elements.click();
 			textbox.click();
+			
+		}
+
+		public void clearall() {
+			fullname.clear();
+			userEmail.clear();
+			currentAddress.clear();
+			permanentAddress.clear();
 			
 		}
 		

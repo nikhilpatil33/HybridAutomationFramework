@@ -27,6 +27,7 @@ public class books {
 	  String CA1=CA;
 	  String PA1=PA; */
 	  page.set(name, email, CA, PA);
+	  page.clearall();
 	  
 	  
   }
@@ -36,7 +37,7 @@ public class books {
   @BeforeTest
   public void beforeTest() {
 	  String br="chrome";
-	  String url="https://demoqa.com";
+	  String url="https://demoqa.com/books";
 	   driver=base.open(br,url);
 	   page=new bookspage(driver);
   }

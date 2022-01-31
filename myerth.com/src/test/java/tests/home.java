@@ -48,7 +48,7 @@ public class home {
 
   @AfterTest
   public void afterTest() {
-	//  base.kill();
+	  base.kill();
   }
 
 }

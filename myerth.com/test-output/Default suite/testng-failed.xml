@@ -7,7 +7,7 @@
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="f"/>
+          <include name="f" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- tests.books -->
     </classes>
