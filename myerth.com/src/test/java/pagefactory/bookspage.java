@@ -31,15 +31,15 @@ public class bookspage {
 		}
 
 		public void clickme() {
-<<<<<<< HEAD
 
-			//navi.click();
+
+			
 
 			//just a msg me
 
-=======
+
 			//just a msg me 01
->>>>>>> nik
+
 			elements.click();
 			textbox.click();
 			
