@@ -27,7 +27,7 @@ public class bookspage {
 			userEmail.sendKeys(email);
 			currentAddress.sendKeys(CA);
 			permanentAddress.sendKeys(PA);
-			submit.click();
+			//submit.click();
 		}
 
 		public void clickme() {
