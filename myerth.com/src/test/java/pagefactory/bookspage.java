@@ -11,7 +11,7 @@ public class bookspage {
 		@FindBy(id="userEmail") WebElement userEmail;
 		@FindBy(id="currentAddress") WebElement currentAddress;
 		@FindBy(id="permanentAddress") WebElement permanentAddress;
-		@FindBy(id="submit") WebElement submit;
+		@FindBy(xpath="//*[@id='submit']") WebElement submit;
 		@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div/div[6]/div") WebElement navi;
 		@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div[1]/div/div/div[1]/span/div/div[1]") WebElement elements;
 		@FindBy(xpath="//*[@id=\"item-0\"]/span") WebElement textbox;
@@ -27,7 +27,7 @@ public class bookspage {
 			userEmail.sendKeys(email);
 			currentAddress.sendKeys(CA);
 			permanentAddress.sendKeys(PA);
-			//submit.click();
+			submit.click();
 		}
 
 		public void clickme() {
