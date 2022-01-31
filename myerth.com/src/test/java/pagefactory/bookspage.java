@@ -39,7 +39,11 @@ public class bookspage {
 
 
 			//just a msg me 01
+<<<<<<< HEAD
 
+=======
+			//02
+>>>>>>> nik
 			elements.click();
 			textbox.click();
 			
