@@ -21,4 +21,13 @@ public class bookspage {
 			PageFactory.initElements(driver, this);
 		}
 		
+		public void set(String name,String email,String CA,String PA)
+		{
+			fullname.sendKeys(name);
+			userEmail.sendKeys(email);
+			currentAddress.sendKeys(CA);
+			permanentAddress.sendKeys(PA);
+			submit.click();
+		}
+		
 }
