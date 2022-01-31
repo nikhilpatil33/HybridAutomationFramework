@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.fail;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
@@ -28,6 +29,7 @@ public class home {
 	  Boolean q=page.verifybtn2();
 	  assertTrue(q);
 	  System.out.println("done");
+	  fail();
 	  
   }
 
