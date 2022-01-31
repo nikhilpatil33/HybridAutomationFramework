@@ -3,13 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="tests.home">
+      <class name="tests.books">
         <methods>
           <include name="beforeTest"/>
           <include name="afterTest"/>
           <include name="f"/>
         </methods>
-      </class> <!-- tests.home -->
+      </class> <!-- tests.books -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

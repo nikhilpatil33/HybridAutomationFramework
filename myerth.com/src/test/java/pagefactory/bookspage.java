@@ -29,5 +29,11 @@ public class bookspage {
 			permanentAddress.sendKeys(PA);
 			submit.click();
 		}
+
+		public void clickme() {
+			elements.click();
+			textbox.click();
+			
+		}
 		
 }

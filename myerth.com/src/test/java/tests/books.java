@@ -21,6 +21,7 @@ public class books {
 	
   @Test(dataProvider="testdata")
   public void f(String name,String email,String CA,String PA) {
+	  page.clickme();
 	  /*String name1=name;
 	  String email1=email;
 	  String CA1=CA;
