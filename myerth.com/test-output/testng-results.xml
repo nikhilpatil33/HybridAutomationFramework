@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-31T18:20:00Z" name="Default suite" finished-at="2022-01-31T18:20:24Z" duration-ms="23497">
+  <suite started-at="2022-01-31T18:30:06Z" name="Suite" finished-at="2022-01-31T18:30:59Z" duration-ms="53086">
     <groups>
     </groups>
-    <test started-at="2022-01-31T18:20:00Z" name="Default test" finished-at="2022-01-31T18:20:24Z" duration-ms="23497">
-      <class name="tests.books">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.books@7331196b]" started-at="2022-01-31T23:50:00Z" name="beforeTest" finished-at="2022-01-31T23:50:22Z" duration-ms="21873" status="PASS">
+    <test started-at="2022-01-31T18:30:06Z" name="Test" finished-at="2022-01-31T18:30:31Z" duration-ms="25408">
+      <class name="tests.home">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.home@49ff7d8c]" started-at="2022-02-01T00:00:06Z" name="beforeTest" finished-at="2022-02-01T00:00:30Z" duration-ms="24578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.books@7331196b]" started-at="2022-01-31T23:50:22Z" name="f" data-provider="testdata" finished-at="2022-01-31T23:50:23Z" duration-ms="702" status="PASS">
+        <test-method signature="f()[pri:0, instance:tests.home@49ff7d8c]" started-at="2022-02-01T00:00:30Z" name="f" finished-at="2022-02-01T00:00:30Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.home@49ff7d8c]" started-at="2022-02-01T00:00:30Z" name="afterTest" finished-at="2022-02-01T00:00:31Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.home -->
+    </test> <!-- Test -->
+    <test started-at="2022-01-31T18:30:31Z" name="Test2" finished-at="2022-01-31T18:30:59Z" duration-ms="27619">
+      <class name="tests.books">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.books@740d2e78]" started-at="2022-02-01T00:00:31Z" name="beforeTest" finished-at="2022-02-01T00:00:57Z" duration-ms="25994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.books@740d2e78]" started-at="2022-02-01T00:00:58Z" name="f" data-provider="testdata" finished-at="2022-02-01T00:00:58Z" duration-ms="593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.books@7331196b]" started-at="2022-01-31T23:50:23Z" name="f" data-provider="testdata" finished-at="2022-01-31T23:50:24Z" duration-ms="466" status="PASS">
+        <test-method signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.books@740d2e78]" started-at="2022-02-01T00:00:58Z" name="f" data-provider="testdata" finished-at="2022-02-01T00:00:59Z" duration-ms="444" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,11 +79,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.books@7331196b]" started-at="2022-01-31T23:50:24Z" name="afterTest" finished-at="2022-01-31T23:50:24Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.books@740d2e78]" started-at="2022-02-01T00:00:59Z" name="afterTest" finished-at="2022-02-01T00:00:59Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- tests.books -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>
